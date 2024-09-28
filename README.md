@@ -1,4 +1,4 @@
-### **Lesson 4: HTML Lists - Classwork Assignment **
+### Lesson 3: HTML Lists - Classwork Assignment
 
 #### **Objective:**
 Building upon the webpage created in **Lesson 3**, students will implement ordered and unordered lists to structure information hierarchically. This classwork will help students demonstrate their understanding of the `<ul>`, `<ol>`, and `<li>` tags in organizing content effectively.
