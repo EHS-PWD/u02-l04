@@ -1,17 +1,20 @@
-### Lesson 3: HTML Lists - Classwork Assignment
+### Lesson 4: HTML Lists - Classwork Assignment
 
 #### **Objective:**
-Building upon the webpage created in **Lesson 3**, students will implement ordered and unordered lists to structure information hierarchically. This classwork will help students demonstrate their understanding of the `<ul>`, `<ol>`, and `<li>` tags in organizing content effectively.
+
+Building upon the webpage created in **Lesson 4**, students will implement ordered and unordered lists to structure information hierarchically. This classwork will help students demonstrate their understanding of the `<ul>`, `<ol>`, and `<li>` tags in organizing content effectively.
 
 ---
 
 ### **Step-by-Step Guide:**
 
 1. **Open Your Existing HTML File**:
+
    - Open the `index.html` file you created in the `unit02-cw` folder.
    - You will now enhance this file by adding ordered and unordered lists to structure information.
 
 2. **Add an Unordered List to the Hobbies Section**:
+
    - Inside the `<main>` tag, go to the **"My Hobbies"** section and convert the list of hobbies into an unordered list (`<ul>`). Each hobby should be wrapped in a list item (`<li>`):
      ```html
      <div>
@@ -26,6 +29,7 @@ Building upon the webpage created in **Lesson 3**, students will implement order
      ```
 
 3. **Add an Ordered List for a "Daily Routine" Section**:
+
    - Below the **"About Me"** section and above the **"My Hobbies"** section, add a new section titled **"My Daily Routine"**. Use an ordered list (`<ol>`) to describe your daily activities. Each activity should be wrapped in a list item (`<li>`):
      ```html
      <section>
@@ -41,6 +45,7 @@ Building upon the webpage created in **Lesson 3**, students will implement order
      ```
 
 4. **Enhance the "Related Articles" in the Aside with an Unordered List**:
+
    - Inside the `<aside>` tag, convert the "Related Articles" section into an unordered list (`<ul>`) for better organization. Each article should be wrapped in a list item (`<li>`):
      ```html
      <aside>
@@ -54,10 +59,12 @@ Building upon the webpage created in **Lesson 3**, students will implement order
      ```
 
 5. **Ensure Correct Usage of Lists**:
+
    - The unordered list (`<ul>`) should be used for items that don't follow a particular order (e.g., hobbies, related articles), while the ordered list (`<ol>`) should be used for items that have a logical sequence (e.g., daily routine).
    - Ensure the lists are correctly nested within the appropriate sections.
 
 6. **Save and Preview Your Webpage**:
+
    - Save your `index.html` file.
    - Open it in a browser to ensure the ordered and unordered lists are displaying as expected and that the webpage remains well-structured.
 
@@ -71,10 +78,12 @@ Building upon the webpage created in **Lesson 3**, students will implement order
 ### **Assessment Criteria**:
 
 1. **Correct Use of List Tags**:
+
    - The webpage uses unordered lists (`<ul>`) and ordered lists (`<ol>`) correctly to organize content.
    - List items (`<li>`) are used appropriately within their respective lists.
 
 2. **Logical Content Organization**:
+
    - The hobbies are now presented in a bulleted unordered list.
    - The daily routine is presented in a numbered ordered list.
    - The related articles are displayed in an unordered list in the aside section.

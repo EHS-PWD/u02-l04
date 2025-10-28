@@ -1,0 +1,20 @@
+{
+  "name": "unit02-lab04-html-lists",
+  "version": "1.0.0",
+  "description": "Autograded HTML Lists assignment with Jest and HTMLHint",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "htmlhint student-code/*.html"
+  },
+  "author": "EHS Web Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "jest": "^29.7.0",
+    "jsdom": "^24.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
