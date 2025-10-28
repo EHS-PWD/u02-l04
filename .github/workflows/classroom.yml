@@ -1,0 +1,33 @@
+name: Run Tests and HTMLHint
+
+on:
+  push:
+    paths:
+      - "student-code/**.html"
+      - "__tests__/**.js"
+      - ".github/workflows/test.yml"
+      - "package.json"
+      - ".htmlhintrc"
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Jest tests
+        run: npm run test
+
+      - name: Lint HTML with HTMLHint
+        run: npm run lint
